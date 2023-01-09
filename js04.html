@@ -1,0 +1,16 @@
+<script>
+  // 기본적으로 const 사용
+  // 값을 변경해야되면 const -> let으로 변경
+  // 함수 스코프를 사용해야되면 let -> var로 변경 (주의)
+
+  // const : 변하지 않는 상수가 들어와야 하는데.. true/false 뭐가 들어올지 모르니 이거슨 오류 !
+  //const result = flase;
+  let result = false;
+
+  result = confirm("확인해주세요.");
+  if (result) {
+    alert("확인");
+  } else {
+    alert("취소");
+  }
+</script>
